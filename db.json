@@ -89,10 +89,37 @@
     { "id": 1, "name": "name"},
     { "id": 2, "name": "name"}
   ],
-  "clients": [
-    { "id": 1, "name": "name"},
-    { "id": 2, "name": "name"}
-  ],
+  "clients": {
+    "requestHeader": {
+        "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
+    },
+    "clients": [
+        {
+            "id": "123",
+            "clientId": "C123",
+            "fullName": "Client 001",
+            "shortName": "",
+            "otherName": "",
+            "status": "",
+            "updatedBy": "",
+            "createdBy": "",
+            "createdDatetime": "",
+            "updatedDatetime": ""
+        },
+        {
+            "id": "456",
+            "clientId": "C456",
+            "fullName": "Client 002",
+            "shortName": "",
+            "otherName": "",
+            "status": "",
+            "updatedBy": "",
+            "createdBy": "",
+            "createdDatetime": "",
+            "updatedDatetime": ""
+        }
+    ]
+},
   "investorAccounts": [
     { "id": 1, "name": "name"},
     { "id": 2, "name": "name"}
