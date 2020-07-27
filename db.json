@@ -225,5 +225,22 @@
                 "updatedDatetime": ""
             }
         ]
+    },
+    "engagementCycles": {
+        "requestHeader": {
+            "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
+        },
+        "engagementCycles": [
+            {
+                "id": "123",
+                "engagementCycleId": "EC123",
+                "engagementCycle": "Engagement Cycle 001",
+                "status": "",
+                "createdBy": "",
+                "createdDatetime": "",
+                "updatedBy": "",
+                "updatedDatetime": ""
+            }
+        ]
     }
 }
