@@ -1,0 +1,23 @@
+{
+  "fundManagers": [
+    { "id": 1, "name": "Post 1" },
+    { "id": 2, "name": "Post 2" },
+    { "id": 3, "name": "Post 3" }
+  ],
+  "funds": [
+    { "id": 1, "name": "name"},
+    { "id": 2, "name": "name"}
+  ],
+  "investeePartnerships": {
+    { "id": 1, "name": "name"},
+    { "id": 2, "name": "name"}
+  },
+  "clients": {
+    { "id": 1, "name": "name"},
+    { "id": 2, "name": "name"}
+  },
+  "investorAccounts": {
+    { "id": 1, "name": "name"},
+    { "id": 2, "name": "name"}
+  }
+}
