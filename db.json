@@ -8,16 +8,16 @@
     { "id": 1, "name": "name"},
     { "id": 2, "name": "name"}
   ],
-  "investeePartnerships": {
+  "investeePartnerships": [
     { "id": 1, "name": "name"},
     { "id": 2, "name": "name"}
-  },
-  "clients": {
+  ],
+  "clients": [
     { "id": 1, "name": "name"},
     { "id": 2, "name": "name"}
-  },
-  "investorAccounts": {
+  ],
+  "investorAccounts": [
     { "id": 1, "name": "name"},
     { "id": 2, "name": "name"}
-  }
+  ]
 }
