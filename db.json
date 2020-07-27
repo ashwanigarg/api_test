@@ -52,10 +52,39 @@
         }
     ]
 },
-  "funds": [
-    { "id": 1, "name": "name", "fundManagerId":"1"},
-    { "id": 2, "name": "name", "fundManagerId":"2"}
-  ],
+  "funds": {
+    "requestHeader": {
+        "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
+    },
+    "funds": [
+        {
+            "id": "123",
+            "fundId": "F123",
+            "fundName": "Test001",
+            "fundManagerId": "FM123",
+            "legalName": "",
+            "currency": "",
+            "status": "",
+            "createdBy": "",
+            "createdDatetime": "",
+            "updatedBy": "",
+            "updatedDatetime": ""
+        },
+        {
+            "id": "456",
+            "fundId": "F456",
+            "fundName": "Test002",
+            "fundManagerId": "FM456",
+            "legalName": "",
+            "currency": "",
+            "status": "",
+            "createdBy": "",
+            "createdDatetime": "",
+            "updatedBy": "",
+            "updatedDatetime": ""
+        }
+    ]
+},
   "investeePartnerships": [
     { "id": 1, "name": "name"},
     { "id": 2, "name": "name"}
