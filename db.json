@@ -5,8 +5,8 @@
     { "id": 3, "name": "Post 3" }
   ],
   "funds": [
-    { "id": 1, "name": "name"},
-    { "id": 2, "name": "name"}
+    { "id": 1, "name": "name", "fundManagerId":"1"},
+    { "id": 2, "name": "name", "fundManagerId":"2"}
   ],
   "investeePartnerships": [
     { "id": 1, "name": "name"},
