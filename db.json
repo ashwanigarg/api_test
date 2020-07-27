@@ -193,20 +193,37 @@
         ]
     },
     "countries": {
-    "requestHeader": {
-        "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
+        "requestHeader": {
+            "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
+        },
+        "countries": [
+            {
+                "id": "123",
+                "code": "IN",
+                "country": "India",
+                "status": "",
+                "createdBy": "",
+                "createdDatetime": "",
+                "updatedBy": "",
+                "updatedDatetime": ""
+            }
+        ]
     },
-    "countries": [
-        {
-            "id": "123",
-            "code": "IN",
-            "country": "India",
-            "status": "",
-            "createdBy": "",
-            "createdDatetime": "",
-            "updatedBy": "",
-            "updatedDatetime": ""
-        }
-    ]
-}
+    "regions": {
+        "requestHeader": {
+            "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
+        },
+        "regions": [
+            {
+                "id": "123",
+                "code": "PB",
+                "region": "Punjab",
+                "status": "",
+                "createdBy": "",
+                "createdDatetime": "",
+                "updatedBy": "",
+                "updatedDatetime": ""
+            }
+        ]
+    }
 }
