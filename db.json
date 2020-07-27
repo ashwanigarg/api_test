@@ -86,34 +86,34 @@
         ]
     },
     "investeePartnerships": {
-    "requestHeader": {
-        "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
-    },
-    "investeePartnerships": [
-        {
-            "id": "123",
-            "partnershipId": "P123",
-            "shortName": "Partner 001",
-            "name": "Partner 001",
-            "status": "",
-            "createdBy": "",
-            "createdDatetime": "",
-            "updatedBy": "",
-            "updatedDatetime": ""
+        "requestHeader": {
+            "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
         },
-        {
-            "id": "456",
-            "partnershipId": "P456",
-            "shortName": "Partner 002",
-            "name": "Partner 002",
-            "status": "",
-            "createdBy": "",
-            "createdDatetime": "",
-            "updatedBy": "",
-            "updatedDatetime": ""
-        }
-    ]
-},
+        "investeePartnerships": [
+            {
+                "id": "123",
+                "partnershipId": "P123",
+                "shortName": "Partner 001",
+                "name": "Partner 001",
+                "status": "",
+                "createdBy": "",
+                "createdDatetime": "",
+                "updatedBy": "",
+                "updatedDatetime": ""
+            },
+            {
+                "id": "456",
+                "partnershipId": "P456",
+                "shortName": "Partner 002",
+                "name": "Partner 002",
+                "status": "",
+                "createdBy": "",
+                "createdDatetime": "",
+                "updatedBy": "",
+                "updatedDatetime": ""
+            }
+        ]
+    },
     "clients": {
         "requestHeader": {
             "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
@@ -145,14 +145,51 @@
             }
         ]
     },
-    "investorAccounts": [
-        {
-            "id": 1,
-            "name": "name"
+    "investorAccounts": {
+        "requestHeader": {
+            "requestId": "eaf5e914-31f1-d6e7-d486-2bab335588c5"
         },
-        {
-            "id": 2,
-            "name": "name"
-        }
-    ]
+        "investorAccounts": [
+            {
+                "id": "123",
+                "investorAccountId": "IA123",
+                "investorAccount": "Account 001",
+                "fundId": "F123",
+                "clientId": "C123",
+                "partnershipId": "P123",
+                "inverstorId": "",
+                "engagementCycleId": "",
+                "currency": "",
+                "reportingName": "",
+                "clientUniqueId": "",
+                "regionId": "",
+                "countryId": "",
+                "status": "",
+                "createdBy": "",
+                "createdDatetime": "",
+                "updatedBy": "",
+                "updatedDatetime": ""
+            },
+            {
+                "id": "456",
+                "investorAccountId": "IA456",
+                "investorAccount": "Account 002",
+                "fundId": "F456",
+                "clientId": "C456",
+                "partnershipId": "P456",
+                "inverstorId": "",
+                "engagementCycleId": "",
+                "currency": "",
+                "reportingName": "",
+                "clientUniqueId": "",
+                "regionId": "",
+                "countryId": "",
+                "status": "",
+                "createdBy": "",
+                "createdDatetime": "",
+                "updatedBy": "",
+                "updatedDatetime": ""
+            }
+        ]
+    }
 }
